@@ -1,0 +1,778 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(218, 28%, 13%);      
+    color: hsl(0, 0%, 100%);
+    font-family: Raleway, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+/* ---------  start framework -------------- */
+.repeat{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.repeat2{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.header1{
+    font: 700 18px Raleway, Sans-serif;
+    margin-bottom: 20px;
+}
+
+.header2{
+    font: 700 14px Raleway, Sans-serif;
+    margin-bottom: 15px;
+
+}
+
+.my-par{
+    font: 400 12px/16px Raleway, Sans-serif;
+    margin-bottom: 28px;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.my-anchor{
+    background-image: linear-gradient(to right,  hsl(176, 68%, 64%) 20% , hsl(198, 60%, 50%));
+    font: 400 12px Raleway, Sans-serif;
+    
+    padding: 8px 50px;
+    white-space: nowrap;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+.my-anchor:hover, .my-anchor:active{
+    border-radius: 0;
+    transition: all .2s ease-in-out;
+    background-image: linear-gradient(to left,  hsl(176, 68%, 64%) 20% , hsl(198, 60%, 50%));
+
+}
+
+
+/* ---------  header styling -------------- */
+
+header{
+    background-color: hsl(217, 28%, 15%);
+}
+
+header .container{
+    width: 90%;
+    padding: 20px 0 40px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 70px;
+    height: 22px;
+}
+header ul {
+    list-style: none;
+    padding: 0;
+}
+
+header ul li{
+    display: inline-block;
+    padding:0 2px;
+}
+
+
+header ul li a{
+    font: 400 10px Raleway, Sans-serif;
+}
+
+header ul li a:hover, header ul li a:active{
+    transition: all .2s ease-in-out;
+    color: hsl(176, 68%, 64%);
+}
+    
+
+
+/* ---------   section1 stling  -------------- */
+
+.section1{
+    background: hsl(217, 28%, 15%) url('../images/bg-curvy-mobile.svg') no-repeat bottom;
+    background-size: 100% 250px;
+    margin-bottom: 30px;
+}
+
+
+.section1 .container > div:first-child {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.section1 .container img {
+    width: 90%;
+}
+
+
+/* ---------   section2 stling  -------------- */
+
+.section2 {
+    margin: 100px 0 80px 0;
+}
+
+.repeat2 img{
+    transform: scale(.7);
+    margin-bottom: 10px;
+}
+
+
+
+
+/* ---------   section3 stling  -------------- */
+
+.section3{
+    margin-bottom: 90px;
+}
+.section3 .container > div:first-child {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.section3 .container > div:first-child img {
+    width: 90%;
+}
+
+.section3 .repeat {
+    text-align: left;
+}
+
+
+.section3 .repeat a {
+    color: hsl(176, 68%, 64%);
+    font: 400 12px Raleway, Sans-serif;
+}
+.section3 .repeat a:active, .section3 .repeat a:hover {
+    transition: all .2s ease-in-out;
+    color: #34ea9e;
+}
+
+.section3 .repeat .arrow {
+    position: relative;
+    top: 4px;
+}
+.section3 .container .for-anchor{
+    display: inline;
+    padding-bottom: 3px;
+    border-bottom: 1px solid hsl(176, 68%, 64%);
+}
+
+.section3 .repeat P:first-of-type{
+    margin-bottom: 15px;
+}
+.section3 .repeat P:nth-of-type(2){
+    margin-bottom: 8px;
+}
+
+
+/* ---------   section4 stling  -------------- */
+
+
+.qt{
+    width: 30px;
+}
+/* testimonial stryling */
+.section4 .testimonial{
+    background-color:  hsl(219, 30%, 18%);
+    padding: 18px;
+    margin-bottom: 30px;
+}
+
+.section4 .testimonial .cont{
+    display: flex;
+    flex-direction: row ;
+}
+
+.section4 .testimonial .cont {
+    display: flex;
+    flex-direction: row ;
+}
+
+.section4 .testimonial .cont > div:last-child{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.section4 .testimonial img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.section4 .testimonial span{
+    display: block;
+}
+.section4 .testimonial span:first-of-type{
+    font: 600 12px Raleway, sans-serif;
+    margin-bottom: 3px;
+}
+.section4 .testimonial span{
+    font: 400 10px Raleway, sans-serif;
+}
+
+/* ---------   section5 stling  -------------- */
+.section5{
+    position: relative;
+    top: 140px;
+}
+
+.section5 .container{
+    width: 90%;
+    background-color: hsl(217, 28%, 15%);
+    padding: 30px;
+    text-align: center;
+}
+.section5 .header2{
+    font: 700 16px Raleway, Sans-serif;
+
+}
+
+.section5 input{
+    height: 31px;
+    width: 212px;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+/* ---------   footer stling  -------------- */
+
+footer .container > div{
+    max-width: 200px;
+}
+
+footer{
+    background-color: hsl(216, 53%, 9%);
+    padding-left: 25px;
+}
+
+footer .container{
+    width: 100%;
+    padding: 200px 0 50px 0;
+}
+
+
+footer .logo{
+    margin-left: 10px;
+    transform: scale(1.3);
+    margin-bottom: 30px;
+}
+
+footer p {
+    padding-left: 35px;
+}
+footer img{
+    display: block;
+}
+
+footer .container >div:first-of-type p {
+    width: 75%;
+}
+
+.location{
+    position: relative;
+    top: 20px;
+}
+
+.extra{
+    padding-top: 44px;
+}
+footer .container > div:nth-of-type(2) p:first-of-type {
+    font: 400 16px Arial Sans-serif;
+}
+
+
+.phone{
+    transform: scale(.85);
+    position: relative;
+    bottom: 45px;
+}
+
+footer .container > div:nth-of-type(2) p:last-of-type {
+    font: 400 14px Raleway Sans-serif;
+}
+
+.email{
+    transform: scale(.85);
+    position: relative;
+    bottom: 15px;
+}
+
+footer .contact{
+    margin-top: 40px;
+
+}
+
+footer .contact a{
+    display: block;
+    margin-bottom: 10px;
+    font: 400 14px Raleway, sans-serif;
+}
+
+footer .contact a:hover,footer .contact a:active{
+    transition: all .3s ease-in-out;
+    color:  hsl(176, 68%, 64%);
+    font: 400 18px Raleway, Sans-serif;
+}
+
+footer .social-media {
+    padding: 45px 0 40px 0;
+}
+footer .social-media ul{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+footer .social-media ul li{
+    display: inline-block;
+    padding: 0 4px;
+}
+
+footer .social-media ul li a{
+    border: 1px solid #fff;
+    padding: 5px 10px;
+    border-radius: 50%;
+}
+footer .social-media ul li .tw{
+    padding: 5px 7px;
+}
+footer .social-media ul li .insta{
+    padding: 5px 7px;
+}
+
+footer .social-media ul li .fb:hover,footer .social-media ul li .fb:active{
+    transition: all .3s ease-in-out;
+    background-color: #fff;
+    color: #3b5998;
+    border: 1px solid #fff;
+}
+footer .social-media ul li .tw:hover,footer .social-media ul li .tw:active{
+    transition: all .3s ease-in-out;
+    background-color: #fff;
+    color: #1da1f2;
+    border: 1px solid #fff;
+}
+footer .social-media ul li .insta:hover,footer .social-media ul li .insta:active{
+    transition: all .3s ease-in-out;
+    background-color: #fff;
+    color: #e4405f;
+    border: 1px solid #fff;
+}
+
+
+
+@media (min-width:500px) and (max-width:767px){
+
+    /* --------- header styling  -------------- */
+    .logo img{
+        width: 90px;
+        height: 29px;
+    }
+
+    header ul li a{
+        font: 400 12px Raleway, Sans-serif;
+    }
+
+    /* ---------   section1 stling  -------------- */
+  
+    .section1 .container img {
+        width: 75%;
+    }
+
+    /* ---------   section2 stling  -------------- */
+   
+    .section2 p {
+        margin: auto;
+        width: 80%;
+    }
+
+    /* ---------   section3 stling  -------------- */
+
+    .section3 .container {
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+   
+
+    .section3 .repeat {
+        padding-top: 50px;
+        padding-left: 40px;
+    }
+
+    .section3 .container > div:first-child img {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* ---------   section4 stling  -------------- */
+    
+    .container{
+        width: 60%;
+    }
+    
+    /* ---------   section5 stling  -------------- */
+
+    .section5{
+        position: relative;
+        top: 100px;
+    }
+
+    .my-anchor{
+        margin-left: 15px;
+        background-image: linear-gradient(to right,  hsl(176, 68%, 64%)  , hsl(198, 60%, 50%));
+        padding: 8px 20px;
+    }
+    .section5 input{
+        width: 262px;
+    }
+    
+    /* ---------   footer stling  -------------- */
+    footer{
+        background-color: hsl(216, 53%, 9%);
+        padding-left: 65px;
+    }
+
+    footer .logo{
+        margin-left: 20px;
+        transform: scale(1.9);
+    }
+}
+
+@media (min-width:768px) and (max-width:992px){
+    .header1{
+        font: 700 20px Raleway, Sans-serif;
+    }
+    
+    .header2{
+        font: 700 16px Raleway, Sans-serif;
+    }
+    
+    .my-par{
+        font: 400 12px Raleway, Sans-serif;
+    }
+
+    /* ---------  header styling -------------- */
+    .logo {
+        width: 100px;
+        height: 32px;
+    }
+
+    header ul li{
+        padding: 0 15px;
+    }
+
+    header ul li a{
+        font: 400 14px Raleway, Sans-serif;
+    }
+
+
+    /* ---------   section1 stling  -------------- */
+    .section1 .container img {
+        width: 75%;
+    }
+
+
+    /* ---------   section2 stling  -------------- */
+    
+    .section2 .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .section2 p {
+        margin: auto;
+        width: 80%;
+    }
+
+    .section2 .container div:first-child img {
+        margin-bottom: 22px;
+    }
+
+    /* ---------   section3 stling  -------------- */
+
+    .section3 .container {
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+
+    .section3 .repeat {
+        padding-top: 75px;
+        padding-left: 40px;
+    }
+
+    .section3 .container > div:first-child img {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    /* ---------   section4 stling  -------------- */
+    .section4 .container{
+        width: 95%;
+    }
+    .parent {
+       display: flex;
+       flex-direction: row;
+    }
+
+    .section4 .testimonial{
+        margin-right: 30px;
+    }
+    .section4 .testimonial:last-of-type{
+        margin-right: 0;
+    }
+
+    /* ---------   section5 stling  -------------- */
+
+    .section5{
+        position: relative;
+        top: 100px;
+    }
+
+    .section5 .container{
+        width: 70%;
+    }
+    .section5 .my-anchor{
+        margin-left: 15px;
+        background-image: linear-gradient(to right,  hsl(176, 68%, 64%)  , hsl(198, 60%, 50%));
+        padding: 8px 20px;
+    }
+    .section5 input{
+        width: 262px;
+    }
+    
+    /* ---------   footer stling  -------------- */
+
+    footer  .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    footer .container >div:first-of-type p {
+        width: 95%;
+    }
+
+    footer .container > div:nth-of-type(2) p:last-of-type {
+        font: 400 10px Raleway Sans-serif;
+    }
+
+    footer .logo{
+        margin-left: 10px;
+        transform: scale(1.3);
+        margin-bottom: 10px;
+    }
+
+    footer .container > div:nth-of-type(2) p:first-of-type {
+        font: 400 14px Arial Sans-serif;
+    }
+    footer .del-marg{
+        margin-bottom: 0;
+    }
+
+    .phone{
+        transform: scale(.85);
+        position: relative;
+        bottom: 17px;
+    }
+
+    footer .social-media ul {
+        padding-right: 10px;
+    }
+    footer .social-media ul li{
+        transform: scale(.8);
+        padding: 0 ;
+    }
+    
+    
+   
+    
+        
+}
+@media (min-width:993px){
+    .header1{
+        font: 700 22px Raleway, Sans-serif;
+    }
+    
+    .header2{
+        font: 700 16px Raleway, Sans-serif;
+    }
+    
+    .my-par{
+        font: 400 12px Raleway, Sans-serif;
+    }
+
+    .my-anchor{
+        font: 400 14px Raleway, Sans-serif;
+        padding: 11px 70px;
+    }
+
+    /* ---------  header styling  -------------- */
+    .logo{
+        width: 100px;
+        height: 32px;
+    }
+
+    header ul li{
+        padding: 0 20px;
+    }
+
+    header ul li a{
+        font: 400 14px Raleway, Sans-serif;
+    }
+
+    /* ---------   section1 stling  -------------- */
+
+    .section1 .container img {
+        width: 50%;
+    }
+
+    /* ---------   section2 stling  -------------- */
+
+    .section2 .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .section2 p {
+        margin: auto;
+        width: 70%;
+    }
+
+    .section2 .container div:first-child img {
+        margin-bottom: 22px;
+    }
+
+
+    /* ---------   section3 stling  -------------- */
+
+    .section3 .container {
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+
+
+    .section3 .repeat {
+        padding-top: 100px;
+        padding-left: 40px;
+    }
+
+    .section3 .container > div:first-child img {
+        width: 90%;
+        height: 90%;
+    }
+    
+    /* ---------   section4 stling  -------------- */
+    .section4 .container{
+        width: 80%;
+        
+    }
+    
+    
+    .section4 .testimonial{
+        margin-right: 40px;
+    }
+    .section4 .testimonial:last-of-type{
+        margin-right: 0;
+    }
+    .parent {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    /* ---------   section5 stling  -------------- */
+
+    .section5{
+        position: relative;
+        top: 93px;
+    }
+
+    .section5 .container{
+        width: 70%;
+    }
+    .section5 .my-anchor{
+        margin-left: 15px;
+        background-image: linear-gradient(to right,  hsl(176, 68%, 64%)  , hsl(198, 60%, 50%));
+        padding: 8px 20px;
+    }
+    .section5 input{
+        width: 262px;
+    }
+
+    /* ---------   footer stling  -------------- */
+
+
+    footer  .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    footer .container >div:first-of-type p {
+        width: 120%;
+    }
+
+    footer .container > div:nth-of-type(2) p:last-of-type {
+        font: 400 10px Raleway Sans-serif;
+    }
+
+    footer .logo{
+        margin-left: 10px;
+        transform: scale(1.3);
+        margin-bottom: 10px;
+    }
+
+    footer .container > div:nth-of-type(2) p:first-of-type {
+        font: 400 14px Arial Sans-serif;
+    }
+    footer .del-marg{
+        margin-bottom: 0;
+    }
+
+    .phone{
+        transform: scale(.85);
+        position: relative;
+        bottom: 17px;
+    }
+
+    footer .social-media ul {
+        padding-right: 50px;
+    }
+
+    footer .social-media ul li{
+        transform: scale(.8);
+        padding: 0 ;
+    }
+
+
+}
+
